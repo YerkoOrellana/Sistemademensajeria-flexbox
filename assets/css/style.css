@@ -1,0 +1,115 @@
+/* General */
+body{
+    font-family:  'Roboto','Open Sans';
+    margin: 0px;
+}
+.container{
+    display: flex;
+}
+p{
+    margin: 0;
+}
+.foto{
+    width: 60px;
+    border-radius: 100%;
+    border: solid 1px silver;
+}
+.texto{
+    align-items: center;
+    margin-left: 15px;
+}
+.textoinferior{
+    font-weight: lighter;
+    text-align: center;
+    color: gray;
+}
+/* Fin General */
+
+/* Tarjetas */
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: solid 1px silver;
+}
+.contacto{
+    display: flex;
+    flex: 20px;
+    width: 250px;
+    border: solid 1px silver;
+    border-color: silver;
+    background-color: white;
+}
+.info-contacto{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+/* Fin Tarjetas */
+
+/* Seccion Maria */
+.fotomaria{
+    width: 45px;
+    border-radius: 100%;
+    border: solid 1px silver;
+}
+.textomaria{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+.iconos{
+    display: flex;
+    color: gray;
+    align-items: center;
+    margin-left: 45px;
+}
+.iconos i{
+    padding: 5px;
+}
+/* Fin Seccion Maria */
+
+/* Boton */
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+.boton button{
+    display: flex;
+    background-color: mediumpurple;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    font-size: 15px;
+    margin-inline: 30px;
+}
+/* Fin Boton */
+
+/* Menu */
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.menu img{
+    width: 300px;
+    text-align: center;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+.textosuperiormenu{
+    font-size: 50px;
+    text-align: center;
+}
+.textoinferiormenu{
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+}
+/* Fin Menu */
